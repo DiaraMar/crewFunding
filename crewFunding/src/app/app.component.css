@@ -1,0 +1,15 @@
+* {
+    margin: 0 5% ;
+    padding: 0;
+    width: 90%;
+}
+
+@media screen and (max-width: 605px) {
+
+   *{
+    margin: 0 0 ;
+    background-color: brown;
+    width: 100%;
+   }
+
+  }

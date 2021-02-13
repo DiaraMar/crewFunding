@@ -1,0 +1,41 @@
+.menu{
+    border: 1px solid black;
+    display: flex;
+    height: 70px;
+    margin: 0px 5% ;
+    width: 90%;
+}
+
+.flex{
+    flex-direction: row;
+}
+
+.logo{
+    justify-content: left;
+    padding: 25px 0% ;
+    width: 15%;
+}
+
+.item{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%; 
+}
+
+.item div {
+    border: 1px solid black;
+    padding: 25px 5% ;
+}
+
+/*******************     Mobile tablette     *******************/
+
+@media screen and (max-width: 605px) {
+
+   .menu{
+     margin: 0 ;
+     background-color: brown;
+     width: 100%;
+     padding : 0%;
+    }
+ 
+}
