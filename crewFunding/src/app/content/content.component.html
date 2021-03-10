@@ -1,0 +1,11 @@
+<app-header></app-header>
+<section>
+    <div class="projects" *ngFor="let pool of pools"> <!--*ngFor="let name of names" [name]="name"-->
+        
+        <div class="project {{pool.statusProject}}">
+            <div><h1>{{pool.nameProject}}</h1></div>
+            <div><p>{{pool.amountProject}} €</p></div>
+        </div>
+
+    </div>
+</section>

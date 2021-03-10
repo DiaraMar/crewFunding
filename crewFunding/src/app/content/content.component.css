@@ -1,0 +1,50 @@
+*{
+    margin-top: 0%;
+    margin-left: 5%;
+    width: 90%;
+}
+
+section{
+    border: solid black 1px;
+
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.project{
+    border: 1px solid black;
+    margin: 0%;
+    padding: 1%;
+    width: 30%;
+}
+
+.funded {
+    background-color: rgb(199, 145, 118);
+    opacity: 0.5;
+}
+
+
+@media screen and (max-width: 605px) {
+
+    *{
+     margin: 0 0 ;
+     padding-top: 5%;
+     width: 100%;
+    }
+
+    section div {
+        padding: 0px;
+    }
+
+    .project{
+        width: 40%;
+    }
+
+
+   }

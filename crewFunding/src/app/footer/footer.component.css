@@ -1,0 +1,48 @@
+section {
+    border-top: 1px solid black;
+    display: flex;
+    height: 160px;
+    margin: 0px 5% ;
+    width: 90%;
+}
+section div {
+    padding: 1%;
+}
+
+.logo{
+
+    font-family: 'oswald';
+    font-size: 1em;
+    font-weight: bolder;
+    width:20%;
+
+}
+
+.about, .ressource{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3px;
+    width: 20%;
+}
+
+
+.about h3, .ressource h3{
+    color: orangered;
+}
+
+@media screen and (max-width: 605px) {
+
+section{
+    margin: 0px;
+     width: 100%;
+}
+
+.logo{
+    width: 35%;
+}
+
+.about, .ressource{
+    width: 35%;
+}
+
+   }

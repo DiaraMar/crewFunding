@@ -1,5 +1,6 @@
 * {
-    margin: 0% 5% ;
+    margin-left: 5%;
+    margin-top: 0%;
     width: 90%;
 }
 
@@ -7,34 +8,39 @@ section{
     border: 1px solid black;
     display: flex; 
     flex-direction: column;
-    justify-content: center;
     height: 200px;
+    justify-content: center;
 }
 
 section div {
     text-align: center;
-    border: 1px solid pink;
-    padding: 5px;
 }
+
 
 .title{
     width: auto;
 }
 
 h1 {
+    font-size: 1.7em;
+    font-weight: bolder;
     text-align: center;
-
+    margin-top: 50px;
 }
 
 .cta {
     
-    background-color: #FF5733;
-    border: 1px solid #FF5733;
+    background-color: #313030;
+    border: 1px solid #000000;
     border-radius: 100px;
     color: white;
+    font-family: 'oswald';
+    font-size: 2em;
     margin: 15px auto;
-    width: 14em;
+    padding: 2px;
+    width: 10em;
 }
+
 
 /*******************     Mobile tablette     *******************/
 
@@ -42,12 +48,16 @@ h1 {
 
     *{
      margin: 0 0 ;
-     background-color: brown;
      width: 100%;
     }
 
     section div {
+        margin: 0%;
         padding: 0px;
+    }
+    section div:last-child{
+        margin-left: 0%;
+        margin-right: 0%;
     }
 
     .title{
@@ -56,14 +66,15 @@ h1 {
 
     .title h1{
         padding-top: 10%;
+        margin-top: 5px;
+
     }
     .cta{
         border-radius: 0px;
+        font-family: 'oswald';
         height: 50px;
         margin: 0px 0px;
         width: 100%; 
     }
-
-
 
    }
